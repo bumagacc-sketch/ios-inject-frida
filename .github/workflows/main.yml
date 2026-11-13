@@ -4,14 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       ipa_url:
-        description: "https://decrypt.day/fs/dl/s/aCwAnKHMNUcflJevsaGlc/com.burbn.instagram_v455.0.0_und3fined.ipa?X-Amz-Expires=300&X-Amz-Date=20261113T003626Z&X-Amz-Security-Token=a599b3bdfe4f8ee4-SOF.f9Ur4SlfAVnxjfFsZirJ5.389801252&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=5984fa5d025ac1fb47a47653444599a2%2F20261113%2Fauto%2F%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=6534eccbe960686941f916db9cb0aa9350f5ea8e15dc79805c0791138baab6d2"
+        description: "https://github.com/bumagacc-sketch/ios-inject-frida/releases/download/asd/com.burbn.instagram_v455.0.0_und3fined.1.ipa"
         required: true
-        default: "https://github.com/prateek147/DVIA-v2/releases/download/v2.0/DVIA-v2-swift.ipa"
+        default: "https://github.com/bumagacc-sketch/ios-inject-frida/releases/download/asd/com.burbn.instagram_v455.0.0_und3fined.1.ipa"
         type: string
       gadget:
         description: "Gadget source: local path in repo, URL, 'latest', or 'X.Y.Z'"
-        required: true
-        default: "latest"
+        required: true        default: "latest"
         type: string
       output_ipa:
         description: "Output IPA filename"
