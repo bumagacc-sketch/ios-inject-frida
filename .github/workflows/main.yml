@@ -6,11 +6,12 @@ on:
       ipa_url:
         description: "https://github.com/bumagacc-sketch/ios-inject-frida/releases/download/asd/com.burbn.instagram_v455.0.0_und3fined.1.ipa"
         required: true
-        default: "https://github.com/bumagacc-sketch/ios-inject-frida/releases/download/asd/com.burbn.instagram_v455.0.0_und3fined.1.ipa"
+        default: "https://github.com/prateek147/DVIA-v2/releases/download/v2.0/DVIA-v2-swift.ipa"
         type: string
       gadget:
         description: "Gadget source: local path in repo, URL, 'latest', or 'X.Y.Z'"
-        required: true        default: "latest"
+        required: true
+        default: "latest"
         type: string
       output_ipa:
         description: "Output IPA filename"
